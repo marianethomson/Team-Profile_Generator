@@ -34,16 +34,6 @@ This application uses [Jest](https://www.npmjs.com/package/jest) for running the
 node index.js
 ```
 
-The application must include `Employee`, `Manager`, `Engineer`, and `Intern` classes. The tests for these classes (in the `_tests_` directory) must ALL pass.
-
-The other three classes will extend `Employee`.
-
-In addition to `Employee`'s properties and methods, `Manager` will also have the following:
-
-- `officeNumber`
-
-- `getRole()`&mdash;overridden to return `'Manager'`
-
 Finally, although it’s not a requirement, consider adding validation to ensure that user input is in the proper format.
 
 ## Grading Requirements
@@ -75,8 +65,6 @@ This homework is graded based on the following criteria:
   - Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
 
   - Uses the [Jest package](https://www.npmjs.com/package/jest) for a suite of unit tests.
-
-  - The application must have `Employee`, `Manager`, `Engineer`, and `Intern` classes.
 
 ### Repository Quality: 13%
 
