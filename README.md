@@ -51,8 +51,6 @@ It is recommended that you start with a directory structure that looks like the 
 └── package.json
 ```
 
-**Important**: Make sure that you remove `dist` from the `.gitignore` file so that Git will track this folder and include it when you push up to your application's repository.
-
 The application must include `Employee`, `Manager`, `Engineer`, and `Intern` classes. The tests for these classes (in the `_tests_` directory) must ALL pass.
 
 The first class is an `Employee` parent class with the following properties and methods:
